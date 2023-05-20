@@ -4,9 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>madlibs</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Er heerst paniek...</title>
 </head>
 <body>
-    
+    <h1>Mad Libz</h1>
+    <h1>Er heerst paniek...</h1>
+    <form action="verwerk.php" method="POST">
+        <label for="naam">Naam:</label>
+        <input type="text" id="naam" name="naam" required>
+
+        <label for="land">Land:</label>
+        <input type="text" id="land" name="land" required>
+
+        <label for="persoon">Persoon:</label>
+        <input type="text" id="persoon" name="persoon" required>
+
+        <label for="werkwoord">Werkwoord:</label>
+        <input type="text" id="werkwoord" name="werkwoord" required>
+
+        <label for="speelgoed">Speelgoed:</label>
+        <input type="text" id="speelgoed" name="speelgoed" required>
+
+        <label for="bijzonderheid">Bijzonderheid:</label>
+        <input type="text" id="bijzonderheid" name="bijzonderheid" required>
+
+        <input type="submit" value="Verzenden">
+    </form>
 </body>
 </html>
